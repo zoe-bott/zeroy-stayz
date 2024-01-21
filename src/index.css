@@ -1,0 +1,33 @@
+/* colors
+  black - 12100E
+  orange - FF934F
+  green - 76B041
+  pink - F75590
+  white - FCFAF9
+*/
+
+@font-face {
+  font-family: 'GentyDemo';
+  src: local('GentyDemo'), url(./fonts/GentyDemo-Regular.otf) format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FCFAF9;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.modal-title {
+  font-family: GentyDemo, Arial, serif;
+  font-weight: black;
+}
